@@ -11,16 +11,25 @@
 
     body{
         height: 98vh;
-        background-color: black;
+        /*background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-repeat: no-repeat;
         background-position: center top;
+        background-attachment: fixed;
+        */
+        /* não funciona como shorthand*/
+
+        /* shorthand - backgorund
+            color > image > position > repeat > [size] > attachment */
+
+        background: black url('imagens/wallpaper002.jpg')
+        center center no-repeat fixed;
         background-size: cover;
     }
 
     main{
         background-color: white;
-        width: 30%;
+        max-width: 400px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -35,6 +44,11 @@
         <h1>Teste de imagem de fundo</h1>
         <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit doloribus nihil impedit cupiditate, ea iste perspiciatis atque magni quis, debitis suscipit recusandae aut! Beatae eum numquam eaque voluptatibus necessitatibus provident! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad distinctio totam maiores quisquam ipsam vel illum itaque excepturi inventore alias delectus, libero voluptates provident illo nulla sequi doloremque exercitationem consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit culpa magni perferendis, rem architecto blanditiis dicta aspernatur odio unde libero, eligendi eos nisi possimus laborum neque pariatur. Sunt, quidem itaque!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, sunt saepe perferendis quas architecto repellendus praesentium repudiandae iusto cupiditate dolores aut consectetur cum accusantium ipsum, magni similique eaque officia sed?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <br>
+            Libero dolorum, sapiente repudiandae sunt aliquam velit asperiores neque eius tempora cumque! Sint esse suscipit sit placeat optio harum cumque repellendus molestiae!
         </p>
     </main>
     
