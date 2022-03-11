@@ -56,6 +56,10 @@ section{
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal{
     background-color: white;
     color: black;
@@ -64,15 +68,27 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.651);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-attachment: fixed; /*efeito paralax*/
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.562);
     width: 50vw;
     padding-left: 8px;
     border-radius: 7px;
+    text-shadow: 1px 2px black;
 }
 
+section#img01{
+    background-image: url('../../imagens/joaninha.jpg');
+    background-size: cover;
+}
+section#img02{
+    background-image: url('../../imagens/cali.jpeg');
+    background-position: left bottom;
+    background-size: cover;
+}
 
 footer{
     background-color: black;
