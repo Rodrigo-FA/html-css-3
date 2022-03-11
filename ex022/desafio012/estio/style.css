@@ -81,11 +81,11 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url('../../imagens/joaninha.jpg');
+    background-image: url('../imagens/joaninha.jpg');
     background-size: cover;
 }
 section#img02{
-    background-image: url('../../imagens/cali.jpeg');
+    background-image: url('../imagens/cali.jpeg');
     background-position: left bottom;
     background-size: cover;
 }
